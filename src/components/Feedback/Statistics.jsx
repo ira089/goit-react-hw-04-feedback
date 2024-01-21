@@ -1,9 +1,7 @@
 import styles from './feedback.module.css';
 
 const Statistics = ({ items, options, total, positiveFeedbackPercentage }) => {
-  // console.log(options);
-  // console.log(items)
-
+  
   return (
     <ul className={styles.statisticsList}>
       {items.map(item => (

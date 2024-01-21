@@ -1,13 +1,10 @@
 
 import { useState } from "react";
-// import { Component } from 'react';
 import styles from './Feedback/feedback.module.css';
 import Section from './Feedback/Section';
 import Notification from './Feedback/Notification';
 import FeedbackOptions from './Feedback/FeedbackOptions';
 import Statistics from './Feedback/Statistics';
-
-
 
 const App =()=> {
 
@@ -50,7 +47,7 @@ const arrValues = Object.values(options);
 
   const nofeedback = () => {
     const positiveValues = arrValues.filter(value => value > 0);
-    // console.log(positiveValues);
+    console.log(positiveValues);
     return positiveValues.length;
   }
   

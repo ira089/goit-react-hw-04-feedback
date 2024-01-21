@@ -1,7 +1,6 @@
 import styles from './feedback.module.css';
 
 const FeedbackOptions = ({ items, leaveFeedback }) => {
-//   const arrItems = Object.keys(items);
   const buttonElements = items.map(item => (
     <button
       className={styles.btn}
