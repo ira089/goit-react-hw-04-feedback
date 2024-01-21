@@ -47,7 +47,7 @@ const arrValues = Object.values(options);
 
   const nofeedback = () => {
     const positiveValues = arrValues.filter(value => value > 0);
-    console.log(positiveValues);
+    // console.log(positiveValues);
     return positiveValues.length;
   }
   
